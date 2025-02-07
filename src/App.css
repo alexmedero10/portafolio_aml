@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.tech-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+.tech-icon:hover {
+  color: #007bff; /* Cambia el color al pasar el cursor */
+}

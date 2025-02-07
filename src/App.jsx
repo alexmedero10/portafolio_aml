@@ -3,26 +3,32 @@ import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { DiJavascript, DiJava, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
+import { SiSpringboot } from "react-icons/si"
+import { TbBrandCSharp } from "react-icons/tb"
 
 const App = () => {
     const projects = [
         {
             title: "Sitio Web E-commerce",
-            description: "Desarrollo de un sitio web de comercio electrónico utilizando React y Node.js.",
-            imageUrl: "https://via.placeholder.com/300",
-            projectUrl: "#"
+            description: "Desarrollo de un sitio web de comercio electrónico utilizando Spring y React.",
+            imageUrl: "https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DAL",
+            projectUrl: "#",
+            technologies: [<SiSpringboot />, <DiJava /> ,<DiReact />, <DiJavascript />, <DiHtml5 />, <DiCss3 />]
         },
         {
-            title: "Aplicación Móvil de Tareas",
-            description: "Aplicación móvil para gestión de tareas desarrollada en Flutter.",
-            imageUrl: "https://via.placeholder.com/300",
-            projectUrl: "#"
+            title: "API Fraudes",
+            description: "API desarollada con Spring con la tarea de banear y desbanear IP's",
+            imageUrl: "https://github.com/alexmedero10/AcademiaIBM_Fraude/raw/master/assets/banearIp.png",
+            projectUrl: "https://github.com/alexmedero10/AcademiaIBM_Fraude",
+            technologies: [<SiSpringboot />, <DiJava />]
         },
         {
-            title: "Sistema de Gestión de Inventarios",
-            description: "Sistema backend para gestión de inventarios con Django y PostgreSQL.",
-            imageUrl: "https://via.placeholder.com/300",
-            projectUrl: "#"
+            title: "Elevadores WeWork Polanco",
+            description: "Sistema que maneja las solicitudes a un elevador del personal corportativo, verificando si tienen permiso para acceder al piso destino.",
+            imageUrl: "https://colivingcdmx.com.mx/wp-content/uploads/Coworking-Polanco-Work-Polanco.jpeg",
+            projectUrl: "#",
+            technologies: [<TbBrandCSharp />]
         }
     ];
 
@@ -39,6 +45,7 @@ const App = () => {
                             description={project.description}
                             imageUrl={project.imageUrl}
                             projectUrl={project.projectUrl}
+                            technologies={project.technologies}
                         />
                     ))}
                 </div>
