@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { DiJavascript, DiJava, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
 import { SiSpringboot } from "react-icons/si"
 import { TbBrandCSharp } from "react-icons/tb"
+import AboutMe from './components/AboutMe';
 
 const App = () => {
     const projects = [
@@ -35,6 +36,7 @@ const App = () => {
     return (
         <div>
             <Navbar />
+            <AboutMe />
             <div className="container my-5">
                 <h1 className="text-center mb-4">Proyectos Destacados</h1>
                 <div id="proyectos" className="row">
