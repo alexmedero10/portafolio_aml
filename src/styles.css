@@ -11,6 +11,12 @@ body {
     transform: scale(1.05);
 }
 
+.custom-nav-link {
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+
 footer {
     margin-top: 50px;
 }

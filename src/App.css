@@ -45,3 +45,7 @@
 .tech-icon:hover {
   color: #007bff; /* Cambia el color al pasar el cursor */
 }
+
+html {
+  scroll-behavior: smooth;
+}

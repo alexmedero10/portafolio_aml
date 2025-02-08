@@ -37,7 +37,7 @@ const App = () => {
             <Navbar />
             <div className="container my-5">
                 <h1 className="text-center mb-4">Proyectos Destacados</h1>
-                <div className="row">
+                <div id="proyectos" className="row">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={index}
