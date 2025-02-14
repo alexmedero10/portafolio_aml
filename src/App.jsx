@@ -7,6 +7,7 @@ import { DiJavascript, DiJava, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
 import { SiSpringboot } from "react-icons/si"
 import { TbBrandCSharp } from "react-icons/tb"
 import AboutMe from './components/AboutMe';
+import Experience from './components/Experience';
 
 const App = () => {
     const projects = [
@@ -38,7 +39,7 @@ const App = () => {
             <Navbar />
             <AboutMe />
             <div className="container my-5">
-                <h1 className="text-center mb-4">Proyectos Destacados</h1>
+                <h1 className="text-center fw-bold mb-4">Proyectos</h1>
                 <div id="proyectos" className="row">
                     {projects.map((project, index) => (
                         <ProjectCard
@@ -52,6 +53,7 @@ const App = () => {
                     ))}
                 </div>
             </div>
+            <Experience/>
             <Footer />
         </div>
     );
