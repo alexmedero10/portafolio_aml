@@ -11,13 +11,13 @@ import Experience from './components/Experience';
 
 const App = () => {
     const projects = [
-        {
+        /**{
             title: "Sitio Web E-commerce",
             description: "Desarrollo de un sitio web de comercio electrónico utilizando Spring y React.",
             imageUrl: "https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DAL",
             projectUrl: "#",
             technologies: [<SiSpringboot />, <DiJava /> ,<DiReact />, <DiJavascript />, <DiHtml5 />, <DiCss3 />]
-        },
+        },**/
         {
             title: "API Fraudes",
             description: "API desarollada con Spring con la tarea de banear y desbanear IP's",
