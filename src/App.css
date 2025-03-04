@@ -49,3 +49,18 @@
 html {
   scroll-behavior: smooth;
 }
+
+.button-cv {
+  background-color: black !important;
+  color: white !important;
+  padding: 4px 4px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.button-cv:hover {
+  background-color: #007bff !important;
+}

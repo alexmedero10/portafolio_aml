@@ -25,6 +25,9 @@ const AboutMe = () => {
                 <a className="tech-icon" href="https://www.linkedin.com/in/alejandromederolujan/" target="_blank" rel="noopener noreferrer">
                     <IoLogoLinkedin />
                 </a>
+                <a className="align-self-end" href="/CV_MederoLujanAlejandro.pdf" download="CV_MederoLujanAlejandro.pdf">
+                    <button className="button-cv">Descargar CV</button>
+                </a>
             </div>
           </div>
         </div>
