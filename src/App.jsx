@@ -3,18 +3,18 @@ import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { DiJavascript, DiJava, DiReact, DiHtml5, DiCss3 } from "react-icons/di";
+import { DiJavascript, DiJava, DiReact, DiHtml5, DiCss3, DiPython } from "react-icons/di";
 import { SiSpringboot } from "react-icons/si"
 import { TbBrandCSharp } from "react-icons/tb"
 
 const App = () => {
     const projects = [
         {
-            title: "Sitio Web E-commerce",
-            description: "Desarrollo de un sitio web de comercio electrónico utilizando Spring y React.",
-            imageUrl: "https://static.www.nfl.com/t_q-best/league/api/clubs/logos/DAL",
-            projectUrl: "#",
-            technologies: [<SiSpringboot />, <DiJava /> ,<DiReact />, <DiJavascript />, <DiHtml5 />, <DiCss3 />]
+            title: "Algoritmo Bron-Kerbosch",
+            description: "Algoritmo que encuentra el máximo clique en un grafo. El máximo clique se define como el subconjunto de vértices de un grafo donde todos los vértices están completamente conectados entre sí ",
+            imageUrl: "/cliqueMaximo.png",
+            projectUrl: "https://github.com/ErikGarfia/Algorithms-Project",
+            technologies: [<DiPython />]
         },
         {
             title: "API Fraudes",
